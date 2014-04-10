@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/irrlicht/code/!svn/ver/4518/branches/ogl-es/media/Shaders
+END
+COGLES2ParallaxMap.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/irrlicht/code/!svn/ver/3370/branches/ogl-es/media/Shaders/COGLES2ParallaxMap.fsh
+END
+COGLES2ParallaxMap.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/irrlicht/code/!svn/ver/3370/branches/ogl-es/media/Shaders/COGLES2ParallaxMap.vsh
+END
+COGLES2FixedPipeline.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/irrlicht/code/!svn/ver/4506/branches/ogl-es/media/Shaders/COGLES2FixedPipeline.fsh
+END
+COGLES2FixedPipeline.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/irrlicht/code/!svn/ver/4518/branches/ogl-es/media/Shaders/COGLES2FixedPipeline.vsh
+END
+COGLES2NormalMap.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/irrlicht/code/!svn/ver/3370/branches/ogl-es/media/Shaders/COGLES2NormalMap.fsh
+END
+COGLES2NormalMap.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/irrlicht/code/!svn/ver/3370/branches/ogl-es/media/Shaders/COGLES2NormalMap.vsh
+END
+COGLES2Renderer2D.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/irrlicht/code/!svn/ver/4436/branches/ogl-es/media/Shaders/COGLES2Renderer2D.fsh
+END
+COGLES2Renderer2D.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/irrlicht/code/!svn/ver/4436/branches/ogl-es/media/Shaders/COGLES2Renderer2D.vsh
+END

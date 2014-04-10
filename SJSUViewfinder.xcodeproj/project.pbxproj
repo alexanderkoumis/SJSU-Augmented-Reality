@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B307965B17D6D6880080E927 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307965A17D6D6880080E927 /* UIKit.framework */; };
+		B307965D17D6D6880080E927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307965C17D6D6880080E927 /* Foundation.framework */; };
+		B307965F17D6D6880080E927 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307965E17D6D6880080E927 /* CoreGraphics.framework */; };
+		B307966517D6D6880080E927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B307966317D6D6880080E927 /* InfoPlist.strings */; };
+		B307966D17D6D6890080E927 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B307966C17D6D6890080E927 /* Default.png */; };
+		B307966F17D6D6890080E927 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B307966E17D6D6890080E927 /* Default@2x.png */; };
+		B307967117D6D6890080E927 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B307967017D6D6890080E927 /* Default-568h@2x.png */; };
+		B307968217D6D6890080E927 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307968117D6D6890080E927 /* SenTestingKit.framework */; };
+		B307968317D6D6890080E927 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307965A17D6D6880080E927 /* UIKit.framework */; };
+		B307968417D6D6890080E927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307965C17D6D6880080E927 /* Foundation.framework */; };
+		B307968C17D6D6890080E927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B307968A17D6D6890080E927 /* InfoPlist.strings */; };
+		B307968F17D6D6890080E927 /* SJSUViewfinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B307968E17D6D6890080E927 /* SJSUViewfinderTests.m */; };
+		B3CB25ED17DDC1ED005EA535 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3CB25EB17DDC1ED005EA535 /* main.cpp */; };
+		B3CB25F017DDC3D7005EA535 /* Interface_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3CB25EE17DDC3D7005EA535 /* Interface_iPad.xib */; };
+		B3CB25F117DDC3D7005EA535 /* Interface_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3CB25EF17DDC3D7005EA535 /* Interface_iPhone.xib */; };
+		B3CB25F517DDC52B005EA535 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB25F417DDC52B005EA535 /* OpenGLES.framework */; };
+		B3CB25F717DDC530005EA535 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB25F617DDC530005EA535 /* CoreMotion.framework */; };
+		B3CB25F917DDC538005EA535 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB25F817DDC538005EA535 /* QuartzCore.framework */; };
+		B3CB260B17DDC877005EA535 /* COGLES2FixedPipeline.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260317DDC877005EA535 /* COGLES2FixedPipeline.fsh */; };
+		B3CB260C17DDC877005EA535 /* COGLES2FixedPipeline.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260417DDC877005EA535 /* COGLES2FixedPipeline.vsh */; };
+		B3CB260D17DDC877005EA535 /* COGLES2NormalMap.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260517DDC877005EA535 /* COGLES2NormalMap.fsh */; };
+		B3CB260E17DDC877005EA535 /* COGLES2NormalMap.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260617DDC877005EA535 /* COGLES2NormalMap.vsh */; };
+		B3CB260F17DDC877005EA535 /* COGLES2ParallaxMap.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260717DDC877005EA535 /* COGLES2ParallaxMap.fsh */; };
+		B3CB261017DDC877005EA535 /* COGLES2ParallaxMap.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260817DDC877005EA535 /* COGLES2ParallaxMap.vsh */; };
+		B3CB261117DDC877005EA535 /* COGLES2Renderer2D.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260917DDC877005EA535 /* COGLES2Renderer2D.fsh */; };
+		B3CB261217DDC877005EA535 /* COGLES2Renderer2D.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260A17DDC877005EA535 /* COGLES2Renderer2D.vsh */; };
+		B3CB261317DDC8A7005EA535 /* media in Resources */ = {isa = PBXBuildFile; fileRef = B3CB260017DDC81E005EA535 /* media */; };
+		B3CB261617DDC989005EA535 /* SJSUViewfinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3CB261417DDC989005EA535 /* SJSUViewfinder.cpp */; };
+		B3CB261817DDD6AA005EA535 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB261717DDD6AA005EA535 /* opencv2.framework */; };
+		B3CB261A17DDE016005EA535 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB261917DDE016005EA535 /* AVFoundation.framework */; };
+		B3CB261C17DDE023005EA535 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB261B17DDE023005EA535 /* CoreVideo.framework */; };
+		B3CB261E17DDE028005EA535 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB261D17DDE028005EA535 /* CoreImage.framework */; };
+		B3CB262017DDE03C005EA535 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB261F17DDE03C005EA535 /* CoreMedia.framework */; };
+		B3CB262217DDE048005EA535 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB262117DDE048005EA535 /* Accelerate.framework */; };
+		B3CB262417DDE04C005EA535 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB262317DDE04B005EA535 /* AssetsLibrary.framework */; };
+		B3CB262917DE0F37005EA535 /* libIrrlicht.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB262817DE0F37005EA535 /* libIrrlicht.a */; };
+		B3F7B1DD17E7AA3E0045AB23 /* Homography.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3F7B1DB17E7AA3E0045AB23 /* Homography.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B307968517D6D6890080E927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B307964F17D6D6880080E927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B307965617D6D6880080E927;
+			remoteInfo = SJSUViewfinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B307965717D6D6880080E927 /* SJSUViewfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJSUViewfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B307965A17D6D6880080E927 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B307965C17D6D6880080E927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B307965E17D6D6880080E927 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B307966217D6D6880080E927 /* SJSUViewfinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SJSUViewfinder-Info.plist"; sourceTree = "<group>"; };
+		B307966417D6D6880080E927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B307966817D6D6890080E927 /* SJSUViewfinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SJSUViewfinder-Prefix.pch"; sourceTree = "<group>"; };
+		B307966C17D6D6890080E927 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B307966E17D6D6890080E927 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B307967017D6D6890080E927 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B307968017D6D6890080E927 /* SJSUViewfinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJSUViewfinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B307968117D6D6890080E927 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B307968917D6D6890080E927 /* SJSUViewfinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SJSUViewfinderTests-Info.plist"; sourceTree = "<group>"; };
+		B307968B17D6D6890080E927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B307968D17D6D6890080E927 /* SJSUViewfinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJSUViewfinderTests.h; sourceTree = "<group>"; };
+		B307968E17D6D6890080E927 /* SJSUViewfinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJSUViewfinderTests.m; sourceTree = "<group>"; };
+		B39C057717EA4A580016ABDE /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		B3CB25EB17DDC1ED005EA535 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = main.cpp; sourceTree = "<group>"; };
+		B3CB25EE17DDC3D7005EA535 /* Interface_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Interface_iPad.xib; sourceTree = "<group>"; };
+		B3CB25EF17DDC3D7005EA535 /* Interface_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Interface_iPhone.xib; path = SJSUViewfinder/Interface_iPhone.xib; sourceTree = "<group>"; };
+		B3CB25F417DDC52B005EA535 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B3CB25F617DDC530005EA535 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B3CB25F817DDC538005EA535 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3CB260017DDC81E005EA535 /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		B3CB260317DDC877005EA535 /* COGLES2FixedPipeline.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2FixedPipeline.fsh; path = media/Shaders/COGLES2FixedPipeline.fsh; sourceTree = "<group>"; };
+		B3CB260417DDC877005EA535 /* COGLES2FixedPipeline.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2FixedPipeline.vsh; path = media/Shaders/COGLES2FixedPipeline.vsh; sourceTree = "<group>"; };
+		B3CB260517DDC877005EA535 /* COGLES2NormalMap.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2NormalMap.fsh; path = media/Shaders/COGLES2NormalMap.fsh; sourceTree = "<group>"; };
+		B3CB260617DDC877005EA535 /* COGLES2NormalMap.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2NormalMap.vsh; path = media/Shaders/COGLES2NormalMap.vsh; sourceTree = "<group>"; };
+		B3CB260717DDC877005EA535 /* COGLES2ParallaxMap.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2ParallaxMap.fsh; path = media/Shaders/COGLES2ParallaxMap.fsh; sourceTree = "<group>"; };
+		B3CB260817DDC877005EA535 /* COGLES2ParallaxMap.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2ParallaxMap.vsh; path = media/Shaders/COGLES2ParallaxMap.vsh; sourceTree = "<group>"; };
+		B3CB260917DDC877005EA535 /* COGLES2Renderer2D.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2Renderer2D.fsh; path = media/Shaders/COGLES2Renderer2D.fsh; sourceTree = "<group>"; };
+		B3CB260A17DDC877005EA535 /* COGLES2Renderer2D.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = COGLES2Renderer2D.vsh; path = media/Shaders/COGLES2Renderer2D.vsh; sourceTree = "<group>"; };
+		B3CB261417DDC989005EA535 /* SJSUViewfinder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = SJSUViewfinder.cpp; sourceTree = "<group>"; };
+		B3CB261517DDC989005EA535 /* SJSUViewfinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSUViewfinder.h; sourceTree = "<group>"; };
+		B3CB261717DDD6AA005EA535 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../OpenCV/ios/opencv2.framework; sourceTree = "<group>"; };
+		B3CB261917DDE016005EA535 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B3CB261B17DDE023005EA535 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B3CB261D17DDE028005EA535 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B3CB261F17DDE03C005EA535 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B3CB262117DDE048005EA535 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B3CB262317DDE04B005EA535 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B3CB262817DE0F37005EA535 /* libIrrlicht.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIrrlicht.a; path = "../../../Library/Developer/Xcode/DerivedData/iOS-gooczjhuhfxgxwefljbfewjijjzd/Build/Products/Debug-iphoneos/libIrrlicht.a"; sourceTree = "<group>"; };
+		B3F7B1DB17E7AA3E0045AB23 /* Homography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Homography.cpp; sourceTree = "<group>"; };
+		B3F7B1DC17E7AA3E0045AB23 /* Homography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homography.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B307965417D6D6880080E927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CB262417DDE04C005EA535 /* AssetsLibrary.framework in Frameworks */,
+				B3CB262217DDE048005EA535 /* Accelerate.framework in Frameworks */,
+				B3CB262017DDE03C005EA535 /* CoreMedia.framework in Frameworks */,
+				B307965F17D6D6880080E927 /* CoreGraphics.framework in Frameworks */,
+				B3CB261E17DDE028005EA535 /* CoreImage.framework in Frameworks */,
+				B3CB261C17DDE023005EA535 /* CoreVideo.framework in Frameworks */,
+				B3CB261A17DDE016005EA535 /* AVFoundation.framework in Frameworks */,
+				B3CB25F917DDC538005EA535 /* QuartzCore.framework in Frameworks */,
+				B3CB25F717DDC530005EA535 /* CoreMotion.framework in Frameworks */,
+				B3CB25F517DDC52B005EA535 /* OpenGLES.framework in Frameworks */,
+				B307965B17D6D6880080E927 /* UIKit.framework in Frameworks */,
+				B307965D17D6D6880080E927 /* Foundation.framework in Frameworks */,
+				B3CB261817DDD6AA005EA535 /* opencv2.framework in Frameworks */,
+				B3CB262917DE0F37005EA535 /* libIrrlicht.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B307967C17D6D6890080E927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307968217D6D6890080E927 /* SenTestingKit.framework in Frameworks */,
+				B307968317D6D6890080E927 /* UIKit.framework in Frameworks */,
+				B307968417D6D6890080E927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B307964E17D6D6880080E927 = {
+			isa = PBXGroup;
+			children = (
+				B307966017D6D6880080E927 /* SJSUViewfinder */,
+				B307968717D6D6890080E927 /* SJSUViewfinderTests */,
+				B307965917D6D6880080E927 /* Frameworks */,
+				B307965817D6D6880080E927 /* Products */,
+				B3CB260017DDC81E005EA535 /* media */,
+				B3CB260217DDC84E005EA535 /* Shaders */,
+			);
+			sourceTree = "<group>";
+		};
+		B307965817D6D6880080E927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B307965717D6D6880080E927 /* SJSUViewfinder.app */,
+				B307968017D6D6890080E927 /* SJSUViewfinderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B307965917D6D6880080E927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3CB262817DE0F37005EA535 /* libIrrlicht.a */,
+				B3CB262317DDE04B005EA535 /* AssetsLibrary.framework */,
+				B3CB262117DDE048005EA535 /* Accelerate.framework */,
+				B3CB261F17DDE03C005EA535 /* CoreMedia.framework */,
+				B3CB261D17DDE028005EA535 /* CoreImage.framework */,
+				B3CB261B17DDE023005EA535 /* CoreVideo.framework */,
+				B3CB261917DDE016005EA535 /* AVFoundation.framework */,
+				B3CB261717DDD6AA005EA535 /* opencv2.framework */,
+				B3CB25F817DDC538005EA535 /* QuartzCore.framework */,
+				B3CB25F617DDC530005EA535 /* CoreMotion.framework */,
+				B3CB25EF17DDC3D7005EA535 /* Interface_iPhone.xib */,
+				B3CB25F417DDC52B005EA535 /* OpenGLES.framework */,
+				B307965A17D6D6880080E927 /* UIKit.framework */,
+				B307965C17D6D6880080E927 /* Foundation.framework */,
+				B307965E17D6D6880080E927 /* CoreGraphics.framework */,
+				B307968117D6D6890080E927 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B307966017D6D6880080E927 /* SJSUViewfinder */ = {
+			isa = PBXGroup;
+			children = (
+				B3CB25EE17DDC3D7005EA535 /* Interface_iPad.xib */,
+				B307966117D6D6880080E927 /* Supporting Files */,
+				B3CB261417DDC989005EA535 /* SJSUViewfinder.cpp */,
+				B3CB261517DDC989005EA535 /* SJSUViewfinder.h */,
+				B3F7B1DB17E7AA3E0045AB23 /* Homography.cpp */,
+				B3F7B1DC17E7AA3E0045AB23 /* Homography.h */,
+				B39C057717EA4A580016ABDE /* Globals.h */,
+			);
+			path = SJSUViewfinder;
+			sourceTree = "<group>";
+		};
+		B307966117D6D6880080E927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3CB25EB17DDC1ED005EA535 /* main.cpp */,
+				B307966217D6D6880080E927 /* SJSUViewfinder-Info.plist */,
+				B307966317D6D6880080E927 /* InfoPlist.strings */,
+				B307966817D6D6890080E927 /* SJSUViewfinder-Prefix.pch */,
+				B307966C17D6D6890080E927 /* Default.png */,
+				B307966E17D6D6890080E927 /* Default@2x.png */,
+				B307967017D6D6890080E927 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B307968717D6D6890080E927 /* SJSUViewfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B307968D17D6D6890080E927 /* SJSUViewfinderTests.h */,
+				B307968E17D6D6890080E927 /* SJSUViewfinderTests.m */,
+				B307968817D6D6890080E927 /* Supporting Files */,
+			);
+			path = SJSUViewfinderTests;
+			sourceTree = "<group>";
+		};
+		B307968817D6D6890080E927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B307968917D6D6890080E927 /* SJSUViewfinderTests-Info.plist */,
+				B307968A17D6D6890080E927 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3CB260217DDC84E005EA535 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B3CB260317DDC877005EA535 /* COGLES2FixedPipeline.fsh */,
+				B3CB260417DDC877005EA535 /* COGLES2FixedPipeline.vsh */,
+				B3CB260517DDC877005EA535 /* COGLES2NormalMap.fsh */,
+				B3CB260617DDC877005EA535 /* COGLES2NormalMap.vsh */,
+				B3CB260717DDC877005EA535 /* COGLES2ParallaxMap.fsh */,
+				B3CB260817DDC877005EA535 /* COGLES2ParallaxMap.vsh */,
+				B3CB260917DDC877005EA535 /* COGLES2Renderer2D.fsh */,
+				B3CB260A17DDC877005EA535 /* COGLES2Renderer2D.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B307965617D6D6880080E927 /* SJSUViewfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B307969217D6D68A0080E927 /* Build configuration list for PBXNativeTarget "SJSUViewfinder" */;
+			buildPhases = (
+				B307965317D6D6880080E927 /* Sources */,
+				B307965417D6D6880080E927 /* Frameworks */,
+				B307965517D6D6880080E927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJSUViewfinder;
+			productName = SJSUViewfinder;
+			productReference = B307965717D6D6880080E927 /* SJSUViewfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B307967F17D6D6890080E927 /* SJSUViewfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B307969517D6D68A0080E927 /* Build configuration list for PBXNativeTarget "SJSUViewfinderTests" */;
+			buildPhases = (
+				B307967B17D6D6890080E927 /* Sources */,
+				B307967C17D6D6890080E927 /* Frameworks */,
+				B307967D17D6D6890080E927 /* Resources */,
+				B307967E17D6D6890080E927 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B307968617D6D6890080E927 /* PBXTargetDependency */,
+			);
+			name = SJSUViewfinderTests;
+			productName = SJSUViewfinderTests;
+			productReference = B307968017D6D6890080E927 /* SJSUViewfinderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B307964F17D6D6880080E927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Henry Tran";
+			};
+			buildConfigurationList = B307965217D6D6880080E927 /* Build configuration list for PBXProject "SJSUViewfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B307964E17D6D6880080E927;
+			productRefGroup = B307965817D6D6880080E927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B307965617D6D6880080E927 /* SJSUViewfinder */,
+				B307967F17D6D6890080E927 /* SJSUViewfinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B307965517D6D6880080E927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307966517D6D6880080E927 /* InfoPlist.strings in Resources */,
+				B307966D17D6D6890080E927 /* Default.png in Resources */,
+				B307966F17D6D6890080E927 /* Default@2x.png in Resources */,
+				B307967117D6D6890080E927 /* Default-568h@2x.png in Resources */,
+				B3CB25F017DDC3D7005EA535 /* Interface_iPad.xib in Resources */,
+				B3CB25F117DDC3D7005EA535 /* Interface_iPhone.xib in Resources */,
+				B3CB261317DDC8A7005EA535 /* media in Resources */,
+				B3CB260B17DDC877005EA535 /* COGLES2FixedPipeline.fsh in Resources */,
+				B3CB260C17DDC877005EA535 /* COGLES2FixedPipeline.vsh in Resources */,
+				B3CB260D17DDC877005EA535 /* COGLES2NormalMap.fsh in Resources */,
+				B3CB260E17DDC877005EA535 /* COGLES2NormalMap.vsh in Resources */,
+				B3CB260F17DDC877005EA535 /* COGLES2ParallaxMap.fsh in Resources */,
+				B3CB261017DDC877005EA535 /* COGLES2ParallaxMap.vsh in Resources */,
+				B3CB261117DDC877005EA535 /* COGLES2Renderer2D.fsh in Resources */,
+				B3CB261217DDC877005EA535 /* COGLES2Renderer2D.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B307967D17D6D6890080E927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307968C17D6D6890080E927 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B307967E17D6D6890080E927 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B307965317D6D6880080E927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CB25ED17DDC1ED005EA535 /* main.cpp in Sources */,
+				B3CB261617DDC989005EA535 /* SJSUViewfinder.cpp in Sources */,
+				B3F7B1DD17E7AA3E0045AB23 /* Homography.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B307967B17D6D6890080E927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307968F17D6D6890080E927 /* SJSUViewfinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B307968617D6D6890080E927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B307965617D6D6880080E927 /* SJSUViewfinder */;
+			targetProxy = B307968517D6D6890080E927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B307966317D6D6880080E927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B307966417D6D6880080E927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B307968A17D6D6890080E927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B307968B17D6D6890080E927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B307969017D6D6890080E927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B307969117D6D68A0080E927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B307969317D6D68A0080E927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Koumis (5LPND8HBNU)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OpenCV/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJSUViewfinder/SJSUViewfinder-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../ogl-es/include\"";
+				INFOPLIST_FILE = "SJSUViewfinder/example-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/iOS-gooczjhuhfxgxwefljbfewjijjzd/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B307969417D6D68A0080E927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Koumis (5LPND8HBNU)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../OpenCV/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJSUViewfinder/SJSUViewfinder-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../ogl-es/include\"";
+				INFOPLIST_FILE = "SJSUViewfinder/example-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/iOS-gooczjhuhfxgxwefljbfewjijjzd/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B307969617D6D68A0080E927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SJSUViewfinder.app/SJSUViewfinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJSUViewfinder/SJSUViewfinder-Prefix.pch";
+				INFOPLIST_FILE = "SJSUViewfinderTests/SJSUViewfinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B307969717D6D68A0080E927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SJSUViewfinder.app/SJSUViewfinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJSUViewfinder/SJSUViewfinder-Prefix.pch";
+				INFOPLIST_FILE = "SJSUViewfinderTests/SJSUViewfinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B307965217D6D6880080E927 /* Build configuration list for PBXProject "SJSUViewfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307969017D6D6890080E927 /* Debug */,
+				B307969117D6D68A0080E927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B307969217D6D68A0080E927 /* Build configuration list for PBXNativeTarget "SJSUViewfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307969317D6D68A0080E927 /* Debug */,
+				B307969417D6D68A0080E927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B307969517D6D68A0080E927 /* Build configuration list for PBXNativeTarget "SJSUViewfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307969617D6D68A0080E927 /* Debug */,
+				B307969717D6D68A0080E927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B307964F17D6D6880080E927 /* Project object */;
+}
